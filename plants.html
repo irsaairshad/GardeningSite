@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plants Encyclopedia - Bloom & Grow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🌿</span>
+      Bloom & Grow
+    </a>
+    <div class="mobile-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="plants.html" class="active">Plants</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <h1>Plant Encyclopedia</h1>
+    <p>Explore our extensive collection of plants with detailed care guides and growing tips.</p>
+  </section>
+
+  <!-- Filter Section -->
+  <section class="section plants-page">
+    <div class="filter-tabs">
+      <button class="filter-btn active" data-filter="all">All Plants</button>
+      <button class="filter-btn" data-filter="flowers">Flowers</button>
+      <button class="filter-btn" data-filter="vegetables">Vegetables</button>
+      <button class="filter-btn" data-filter="herbs">Herbs</button>
+      <button class="filter-btn" data-filter="trees">Trees</button>
+      <button class="filter-btn" data-filter="succulents">Succulents</button>
+    </div>
+
+    <div class="cards-grid">
+      <!-- Flowers -->
+      <div class="plant-card" data-category="flowers">
+        <img src="https://heirloomroses.com/cdn/shop/products/Lavender-Veranda-13.jpg?v=1709580342&width=1024" alt="Lavender" class="plant-image">
+        <div class="plant-info">
+          <h3>Lavender</h3>
+          <p>Fragrant purple blooms perfect for borders and attracting pollinators.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Low</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Perennial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="flowers">
+        <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600&q=80" alt="Sunflowers" class="plant-image">
+        <div class="plant-info">
+          <h3>Sunflowers</h3>
+          <p>Cheerful giants that brighten any garden and attract beneficial insects.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Annual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="flowers">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJKSdUsrAcf9XhvajdCpQStEiVxohgE3a9rQ&s" alt="Roses" class="plant-image">
+        <div class="plant-info">
+          <h3>Roses</h3>
+          <p>Classic and elegant, roses bring timeless beauty and fragrance.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Perennial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="flowers">
+        <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600&q=80" alt="Tulips" class="plant-image">
+        <div class="plant-info">
+          <h3>Tulips</h3>
+          <p>Spring favorites in a rainbow of colors, perfect for beds and borders.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Part sun</span>
+            <span class="tag">Bulb</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vegetables -->
+      <div class="plant-card" data-category="vegetables">
+        <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=600&q=80" alt="Tomatoes" class="plant-image">
+        <div class="plant-info">
+          <h3>Tomatoes</h3>
+          <p>Summer garden staples with countless varieties for every taste.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 High</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Annual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="vegetables">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnD8bxrAJfELlIdKZx5NR_SCVLBYfuZcuG4w&s" alt="Peppers" class="plant-image">
+        <div class="plant-info">
+          <h3>Peppers</h3>
+          <p>From sweet bell to fiery habanero, peppers love the summer heat.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Annual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="vegetables">
+        <img src="https://images.unsplash.com/photo-1504675099198-7023dd85f5a3?w=600&q=80" alt="Lettuce" class="plant-image">
+        <div class="plant-info">
+          <h3>Lettuce</h3>
+          <p>Quick-growing greens perfect for spring and fall harvests.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Part shade</span>
+            <span class="tag">Annual</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Herbs -->
+      <div class="plant-card" data-category="herbs">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Kw9UbCsPyUWZvgFxLAbR-zB_ARei9Fe86w&s" alt="Basil" class="plant-image">
+        <div class="plant-info">
+          <h3>Basil</h3>
+          <p>Aromatic herb essential for Italian cooking and companion planting.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Annual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="herbs">
+        <img src="https://images.unsplash.com/photo-1628556270448-4d4e4148e1b1?w=600&q=80" alt="Mint" class="plant-image">
+        <div class="plant-info">
+          <h3>Mint</h3>
+          <p>Vigorous grower perfect for teas, cocktails, and repelling pests.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 High</span>
+            <span class="care-item">☀️ Part sun</span>
+            <span class="tag">Perennial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="herbs">
+        <img src="https://images.unsplash.com/photo-1515586000433-45406d8e6662?w=600&q=80" alt="Rosemary" class="plant-image">
+        <div class="plant-info">
+          <h3>Rosemary</h3>
+          <p>Hardy, drought-tolerant herb with woody stems and pine scent.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Low</span>
+            <span class="care-item">☀️ Full sun</span>
+            <span class="tag">Perennial</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trees -->
+      <div class="plant-card" data-category="trees">
+        <img src="https://images.unsplash.com/photo-1474557157379-8aa74a6ef541?w=600&q=80" alt="Japanese Maple" class="plant-image">
+        <div class="plant-info">
+          <h3>Japanese Maple</h3>
+          <p>Elegant ornamental tree with stunning foliage colors through the seasons.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Moderate</span>
+            <span class="care-item">☀️ Part shade</span>
+            <span class="tag">Deciduous</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Succulents -->
+      <div class="plant-card" data-category="succulents">
+        <img src="https://images.unsplash.com/photo-1593691509543-c55fb32d8de5?w=600&q=80" alt="Snake Plant" class="plant-image">
+        <div class="plant-info">
+          <h3>Snake Plant</h3>
+          <p>Nearly indestructible air purifier, perfect for beginners.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Low</span>
+            <span class="care-item">☀️ Any light</span>
+            <span class="tag">Indoor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="succulents">
+        <img src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?w=600&q=80" alt="Jade Plant" class="plant-image">
+        <div class="plant-info">
+          <h3>Jade Plant</h3>
+          <p>Long-lived succulent symbolizing good luck and prosperity.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Low</span>
+            <span class="care-item">☀️ Bright light</span>
+            <span class="tag">Indoor</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="plant-card" data-category="succulents">
+        <img src="https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=600&q=80" alt="Aloe Vera" class="plant-image">
+        <div class="plant-info">
+          <h3>Aloe Vera</h3>
+          <p>Medicinal succulent with healing gel, easy to grow.</p>
+          <div class="plant-care">
+            <span class="care-item">💧 Low</span>
+            <span class="care-item">☀️ Bright light</span>
+            <span class="tag">Indoor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <h2>More Plants Coming Soon</h2>
+      <p>Subscribe to be notified when we add new plants to our encyclopedia.</p>
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-secondary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>🌿 Bloom & Grow</h4>
+        <p style="opacity: 0.8; margin-top: 1rem;">Cultivating beauty, one plant at a time.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="plants.html">Plants</a></li>
+          <li><a href="guides.html">Guides</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <div class="footer-social">
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+          <a href="#">🐦</a>
+          <a href="#">📌</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Bloom & Grow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

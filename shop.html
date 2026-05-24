@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garden Shop - Bloom & Grow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🌿</span>
+      Bloom & Grow
+    </a>
+    <div class="mobile-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="plants.html">Plants</a></li>
+      <li><a href="guides.html">Guides</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <h1>Garden Shop</h1>
+    <p>Quality seeds, tools, and supplies to help your garden flourish.</p>
+  </section>
+
+  <!-- Shop Section -->
+  <section class="section shop-page">
+    <div class="filter-tabs">
+      <button class="filter-btn active" data-filter="all">All Products</button>
+      <button class="filter-btn" data-filter="seeds">Seeds</button>
+      <button class="filter-btn" data-filter="tools">Tools</button>
+      <button class="filter-btn" data-filter="soil">Soil & Fertilizer</button>
+      <button class="filter-btn" data-filter="pots">Pots & Planters</button>
+      <button class="filter-btn" data-filter="accessories">Accessories</button>
+    </div>
+
+    <div class="cards-grid">
+      <!-- Seeds -->
+      <div class="product-card" data-category="seeds">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80" alt="Heirloom Tomato Seeds" class="product-image">
+          <span class="sale-badge">SALE</span>
+        </div>
+        <div class="product-info">
+          <h3>Heirloom Tomato Seeds</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(48)</span>
+          </div>
+          <p class="price">$8.99 <span class="price-old">$12.99</span></p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="seeds">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600&q=80" alt="Sunflower Seeds Mix" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Sunflower Seeds Mix</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(67)</span>
+          </div>
+          <p class="price">$6.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="seeds">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=600&q=80" alt="Herb Garden Kit" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Herb Garden Starter Kit</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐☆</span>
+            <span class="rating-count">(34)</span>
+          </div>
+          <p class="price">$24.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="product-card" data-category="tools">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80" alt="Garden Tool Set" class="product-image">
+          <span class="sale-badge">BESTSELLER</span>
+        </div>
+        <div class="product-info">
+          <h3>Premium Garden Tool Set</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(128)</span>
+          </div>
+          <p class="price">$42.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="tools">
+        <div class="product-image-wrapper">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiWMWEMXq4VDEOkyBQcvuiOWrh2wOh3dwk5A&s" alt="Pruning Shears" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Professional Pruning Shears</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(89)</span>
+          </div>
+          <p class="price">$28.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="tools">
+        <div class="product-image-wrapper">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_mtco7_MabwHfiDx5mGasK-AKCOw483MuBg&s" alt="Watering Can" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Copper Watering Can</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐☆</span>
+            <span class="rating-count">(56)</span>
+          </div>
+          <p class="price">$34.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Soil & Fertilizer -->
+      <div class="product-card" data-category="soil">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&q=80" alt="Organic Potting Soil" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Organic Potting Soil</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(142)</span>
+          </div>
+          <p class="price">$18.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="soil">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80" alt="Organic Fertilizer" class="product-image">
+          <span class="sale-badge">SALE</span>
+        </div>
+        <div class="product-info">
+          <h3>All-Purpose Organic Fertilizer</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(78)</span>
+          </div>
+          <p class="price">$14.99 <span class="price-old">$19.99</span></p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Pots & Planters -->
+      <div class="product-card" data-category="pots">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?w=600&q=80" alt="Ceramic Pot Set" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Modern Ceramic Pot Set</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(64)</span>
+          </div>
+          <p class="price">$49.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="pots">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?w=600&q=80" alt="Hanging Planter" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Macrame Hanging Planter</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐☆</span>
+            <span class="rating-count">(41)</span>
+          </div>
+          <p class="price">$22.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Accessories -->
+      <div class="product-card" data-category="accessories">
+        <div class="product-image-wrapper">
+          <img src="https://m.media-amazon.com/images/I/81p4C7YD6sL._AC_UF350,350_QL80_.jpg" alt="Plant Labels" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Wooden Plant Labels (50 pack)</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐⭐</span>
+            <span class="rating-count">(93)</span>
+          </div>
+          <p class="price">$9.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="accessories">
+        <div class="product-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80" alt="Garden Gloves" class="product-image">
+        </div>
+        <div class="product-info">
+          <h3>Bamboo Garden Gloves</h3>
+          <div class="rating">
+            <span class="rating-star">⭐⭐⭐⭐☆</span>
+            <span class="rating-count">(37)</span>
+          </div>
+          <p class="price">$12.99</p>
+          <button class="btn btn-primary add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Bubble -->
+  <div class="cart-bubble" style="display: flex;">
+    <span class="cart-icon">🛒</span>
+    <span class="cart-count">0</span>
+  </div>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="newsletter-container">
+      <h2>Get 10% Off Your First Order</h2>
+      <p>Subscribe to our newsletter for exclusive deals and gardening tips.</p>
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-secondary">Get My Discount</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>🌿 Bloom & Grow</h4>
+        <p style="opacity: 0.8; margin-top: 1rem;">Cultivating beauty, one plant at a time.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="plants.html">Plants</a></li>
+          <li><a href="guides.html">Guides</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Support</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <div class="footer-social">
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+          <a href="#">🐦</a>
+          <a href="#">📌</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Bloom & Grow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

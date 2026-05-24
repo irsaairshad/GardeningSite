@@ -1,0 +1,17 @@
+{
+  "name": "bloom-and-grow",
+  "version": "1.0.0",
+  "description": "A beautiful animated gardening website with full backend support",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
