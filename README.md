@@ -75,11 +75,6 @@ This project expects a Supabase project with tables for:
 
 If you are using a fresh Supabase project, create the required tables and make sure Row Level Security (RLS) allows the operations used by the app.
 
-## 📦 Deployment
-
-This repository is intended to be pushed to:
-
-- https://github.com/irsaairshad/GardeningSite
 
 ## 📝 Notes
 
@@ -88,4 +83,4 @@ This repository is intended to be pushed to:
 
 ## 👤 Author
 
-Built by Irsa Airshad.
+Built by Irsa Irshad.
