@@ -28,6 +28,8 @@ npm install
 Create a `.env` file in the project root and add your Supabase credentials:
 
 ```bash
+VITE_SUPABASE_URL=https://ibwhwxdexyszfzpwrgwk.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlid2h3eGRleHlzemZ6cHdyZ3drIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk1NDcxNjksImV4cCI6MjA5NTEyMzE2OX0.SZTxVWrWunBig9rozmMmxNCwhFzasGy69OuSG6ltG3c
 
 ```
 
